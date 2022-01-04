@@ -19,6 +19,17 @@ içindeki scriptlerin olması gerekir.
 
 **************************  AutoMapper ****************************  
 
+************ RateLimit ************** 
+
+-> Endpointler üzerinde sınırlama yapmak içindir. (IP,Client ID,Time)(Ex : 1 saatte 100 request olsun, 101. olmasın)
+-> Monolitic uygulamalarda Memory cache üzerinden yapabilirsin.  Fakat microseris mimarisi olan yerlerde Distributed cache üzerinden yapılmalıdır. 
+Çünkü load balancer farklı sunuculara yönlendirdiği için her bir sunucuya gelen isteği Distributed cache üzerinden alabilirsin
+
+2 çeşit rate limit mevcuttur.
+
+a.) IP Rate Limit  ->        (Api ımıza istek yapacak client'ların IP adresi static ise değişmiyorsa IP Rate Limit kullanılır) **** (Best Practice için bu önerilir) ****
+b.) Client ID Rate Limit ->  (Api ımıza istek yapacak client'ların IP adresi static değilse, sürekli değişiyorsa Client ID Rate Limit kullanılır)
+
 **************************  Smidge ****************************  
 
 -> Runtime de bu işlem yapılır
