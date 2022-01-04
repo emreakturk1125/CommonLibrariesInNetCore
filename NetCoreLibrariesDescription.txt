@@ -1,0 +1,96 @@
+
+**************************  FluentValidation ****************************  
+
+-> Çift taraflı doğrulama vardır. Önce Client sonrasıda Server taraflı
+-> Api tarafında gönül rahatlığı ile kullanılabilir. Mvc UI tarafında bazı kısıtlamalar oluyor
+-> Core 2.0 sürümünden itibaren kullanılabilir
+-> Separation Of Concern prensibini uygulamaya yarar, Kodları ayrılmasını sağlar
+-> Unit Test yazmayı kolaylaştırır.
+-> Fluent validation da var olan gömülü metodlardan kullanırsan bazıları client taraflı, bazılarıda server taraflı kontrol olur
+-> Fakat custom validation yazarsan eğer hep server taraflı olur.
+
+Client taraflı kontrol sağlamak için;
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+içindeki scriptlerin olması gerekir.
+
+**************************  AutoMapper ****************************  
+
+**************************  Smidge ****************************  
+
+-> Runtime de bu işlem yapılır
+-> Sayfanın yüklenme hızını artırır.
+-> Birden fazla dosyayı tek dosya haline getirmek(css,js)
+-> Bundling - Minification işlemleri runtime da gerçekleştiren kütüphanedir.
+-> _ViewImports sayfasında TagHelper olarak eklenmelidir
+-> Starup.cs de oluşturduğun isme göre _layout ya da nerede kullanılacaksa   <link rel="stylesheet" href="my-css-bundle" /> 
+
+<environment names="Development">
+    <script src="my-js-bundle" debug="true"></script>    @*Development ortamında debug js dosyasında debug yapabilmek için bu ayar gerekli, dosyaları sıkıştırmaz*@
+</environment>
+
+<environment names="Production">
+   <script src="my-js-bundle"></script>                  @*Production ortamında bu ayar gerekli, dosyaları sıkıştırır.*@
+</environment>
+
+**************************  Hangfire ****************************  
+
+-> Uygulama çökse dahi, tekrar ayağa kalktığında job lar çalışır. Çünkü bilgiler database de tutuluyor.
+-> Hatalı çalışan job 10 kez denenir.
+
+Jobs Türleri
+-------------
+
+FireAndForget -> Ücretsiz, Tek seferde çalışacak job türü, ör; kullanıcı üye olduğunda mail atmak isterseniz, -> Mesaj kuyruk sistemi gibi çalışıyor
+
+Delay         -> Ücretsiz, Tek seferde  belli bir süre sonra çalışmacak job türü, ör; kullanıcı üye olduktan 1 saat ya da 1 gün sonra mail atmak isterseniz, -> Mesaj kuyruk sistemi gibi çalışıyor
+
+Recurring     -> Ücretsiz, belli aralıklarla çalışacak job türü, ör : hergün ya da her ayın birinde rapor oluşturmak istersen, -> Windows servis gibi çalışır, bu job sayesinde windows servis yazmaya gerek yoktur
+
+Continuations -> Ücretsiz, üstteki job lardan sonra çalışacak job varsa
+
+Batch                     -> Ücretli, Toplu bir job çalıştırıldığı zaman exception fırlatıldığında bunu dah kolay handle etmek için
+
+Batch Continuations       -> Ücretli    
+
+* Ücretli olanları kullanmaya gerek yok     
+
+**************************  Handle Error In NetCore ****************************  
+
+-> Action Bazında
+-> Controller Bazında
+-> App Bazında
+
+Middlewares
+-----------------------------
+DeveloperExceptionPage()
+DatabaseErrorPage() -> Entity Framework ile ilgili hata olduğunda bunu detaylı görebilmek için
+
+
+ExceptionFilterAttribute
+
+**************************  Logging ****************************  
+
+Third-party logging
+--------------------
+-> NLog
+-> Log4Net
+
+Loglama seviyeleri .Net tarafında
+-------------------------------------
+-> Trace(0), 
+-> Debug(1), 
+-> Information(2), 
+-> Warning(3), 
+-> Error(4), 
+-> Critical(5)
+
+************ Swagger ************** 
+
+.csproj  içinde;  
+
+<GenerateDocumentationFile>true</GenerateDocumentationFile>  <!--eklersek Metodlar için yaptığımız yorumlar xml olaak kaydedilecek-->
+

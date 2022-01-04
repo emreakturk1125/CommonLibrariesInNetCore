@@ -1,0 +1,331 @@
+2021-12-26 15:29:54.6320|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/Home2/Index   
+2021-12-26 15:29:54.6320|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 15:29:54.6320|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home2"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.Home2Controller (NetCoreLibraries.Logging.Web). 
+2021-12-26 15:29:55.7608||INFO|NetCoreLibraries.Logging.Web.Controllers.Home2Controller|Index sayfası başlamıştır. 
+2021-12-26 15:29:55.7608|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 15:29:55.7679|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 4.0444ms. 
+2021-12-26 15:29:55.7679|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web) in 1099.8479ms 
+2021-12-26 15:29:55.7679|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 15:29:55.7679|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1146.7015ms 200 text/html; charset=utf-8 
+2021-12-26 20:23:41.4078||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\aktur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2021-12-26 20:23:42.1305||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-12-26 20:23:42.1492||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-12-26 20:23:42.1492||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web 
+2021-12-26 20:23:42.2473|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/   
+2021-12-26 20:23:42.3236|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:23:42.4738|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.HomeController (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:23:42.4738||INFO|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:23:42.5063||WARN|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:23:42.5063||ERROR|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:23:42.5179||FATAL|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:23:42.5890|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:23:42.9789|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 407.3871ms. 
+2021-12-26 20:23:42.9789|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web) in 506.6923ms 
+2021-12-26 20:23:42.9910|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:23:43.0045|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 759.5513ms 200 text/html; charset=utf-8 
+2021-12-26 20:23:43.1007|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/lib/jquery/dist/jquery.min.js   
+2021-12-26 20:23:43.1261|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2021-12-26 20:23:43.1456|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/css/site.css   
+2021-12-26 20:23:43.1649|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/css/bootstrap.min.css   
+2021-12-26 20:23:43.1649|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2021-12-26 20:23:43.2379|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/site.css was not modified 
+2021-12-26 20:23:43.2379|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /js/site.js was not modified 
+2021-12-26 20:23:43.2379|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/jquery/dist/jquery.min.js was not modified 
+2021-12-26 20:23:43.2379|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified 
+2021-12-26 20:23:43.2379|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified 
+2021-12-26 20:23:43.2379|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 100.8119ms 304 text/css 
+2021-12-26 20:23:43.2379|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 120.4363ms 304 application/javascript 
+2021-12-26 20:23:43.2379|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 145.834ms 304 application/javascript 
+2021-12-26 20:23:43.2379|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 81.9634ms 304 application/javascript 
+2021-12-26 20:23:43.2924|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 127.4534ms 304 text/css 
+2021-12-26 20:23:49.0245|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/   
+2021-12-26 20:23:49.0245|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:23:49.0345|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.HomeController (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:23:49.0345||INFO|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:23:49.0345||WARN|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:23:49.0525||ERROR|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:23:49.0525||FATAL|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:23:49.0525|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:23:49.0726|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 13.3707ms. 
+2021-12-26 20:23:49.0726|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web) in 36.8625ms 
+2021-12-26 20:23:49.0726|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:23:49.0726|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 52.5475ms 200 text/html; charset=utf-8 
+2021-12-26 20:23:54.0015|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/Home2/Index   
+2021-12-26 20:23:54.0015|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:23:54.0015|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home2"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.Home2Controller (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:23:56.3935||INFO|NetCoreLibraries.Logging.Web.Controllers.Home2Controller|Index sayfası başlamıştır. 
+2021-12-26 20:23:56.3935|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:23:56.4100|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 12.2673ms. 
+2021-12-26 20:23:56.4100|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web) in 2398.6278ms 
+2021-12-26 20:23:56.4100|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:23:56.4100|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2416.4277ms 200 text/html; charset=utf-8 
+2021-12-26 20:25:57.3784||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\aktur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2021-12-26 20:25:58.1113||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-12-26 20:25:58.1463||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-12-26 20:25:58.1463||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web 
+2021-12-26 20:25:58.2410|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/   
+2021-12-26 20:25:58.3637|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:25:58.4208|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/Home2/Index   
+2021-12-26 20:25:58.4669|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:25:58.5978|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.HomeController (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:25:58.5978|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home2"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.Home2Controller (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:26:00.7611||INFO|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:26:00.7611||INFO|NetCoreLibraries.Logging.Web.Controllers.Home2Controller|Index sayfası başlamıştır. 
+2021-12-26 20:26:00.7780||WARN|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:26:00.7780||ERROR|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:26:00.7847||FATAL|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:26:00.8248|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:26:00.8248|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:26:01.0964|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 293.3171ms. 
+2021-12-26 20:26:01.0964|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 288.5262ms. 
+2021-12-26 20:26:01.0964|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web) in 2499.805ms 
+2021-12-26 20:26:01.0964|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web) in 2497.7658ms 
+2021-12-26 20:26:01.0964|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:26:01.0964|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:26:01.1150|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2877.8844ms 200 text/html; charset=utf-8 
+2021-12-26 20:26:01.1150|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2693.4513ms 200 text/html; charset=utf-8 
+2021-12-26 20:34:49.7343||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\aktur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2021-12-26 20:34:50.4506||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-12-26 20:34:50.4686||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-12-26 20:34:50.4974||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web 
+2021-12-26 20:34:50.5517|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/   
+2021-12-26 20:34:50.6239|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:34:50.7310|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.HomeController (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:34:50.7402||INFO|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:34:50.7623||WARN|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:34:50.7623||ERROR|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:34:50.7711||FATAL|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:34:50.8189|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:34:51.1197|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 314.8162ms. 
+2021-12-26 20:34:51.1197|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web) in 388.8361ms 
+2021-12-26 20:34:51.1272|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:34:51.1272|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 586.6893ms 200 text/html; charset=utf-8 
+2021-12-26 20:34:51.6528|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/Home2/Index   
+2021-12-26 20:34:51.6610|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:34:51.6610|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home2"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.Home2Controller (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:34:54.1871||INFO|NetCoreLibraries.Logging.Web.Controllers.Home2Controller|Index sayfası başlamıştır. 
+2021-12-26 20:34:54.1933|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:34:54.2058|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 14.3312ms. 
+2021-12-26 20:34:54.2058|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web) in 2540.1943ms 
+2021-12-26 20:34:54.2058|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:34:54.2058|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2561.9164ms 200 text/html; charset=utf-8 
+2021-12-26 20:41:13.2835||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\aktur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2021-12-26 20:41:13.8453||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-12-26 20:41:13.8762||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-12-26 20:41:13.8806||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web 
+2021-12-26 20:41:13.9649|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/   
+2021-12-26 20:41:14.0293|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:41:14.1234|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.HomeController (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:41:14.1312||INFO|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:41:14.1493||WARN|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:41:14.1493||ERROR|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:41:14.1493||FATAL|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:41:14.2063|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:41:14.5290|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 337.2474ms. 
+2021-12-26 20:41:14.5290|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web) in 406.5124ms 
+2021-12-26 20:41:14.5359|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:41:14.5359|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 583.6365ms 200 text/html; charset=utf-8 
+2021-12-26 20:41:15.2953|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/Home2/Index   
+2021-12-26 20:41:15.3033|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:41:15.3033|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home2"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.Home2Controller (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:41:20.7819||INFO|NetCoreLibraries.Logging.Web.Controllers.Home2Controller|Index sayfası başlamıştır. 
+2021-12-26 20:41:20.7866|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:41:20.7997|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 14.3117ms. 
+2021-12-26 20:41:20.7997|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web) in 5487.6663ms 
+2021-12-26 20:41:20.7997|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:41:20.7997|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 5508.3251ms 200 text/html; charset=utf-8 
+2021-12-26 20:51:45.5219||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\aktur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2021-12-26 20:51:45.9280|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/   
+2021-12-26 20:51:45.9280|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/Home2/Index   
+2021-12-26 20:51:46.0424|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:51:46.0424|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:51:46.1940|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home2"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.Home2Controller (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:51:46.1940|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.HomeController (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:51:48.4916||INFO|NetCoreLibraries.Logging.Web.Controllers.Home2Controller|Index sayfası başlamıştır. 
+2021-12-26 20:51:48.4916||INFO|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:51:48.5203||WARN|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:51:48.5203||ERROR|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:51:48.5203||FATAL|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:51:48.5942|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:51:48.5942|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:51:48.9688|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 400.216ms. 
+2021-12-26 20:51:48.9688|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 407.788ms. 
+2021-12-26 20:51:48.9720|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web) in 2773.744ms 
+2021-12-26 20:51:48.9720|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web) in 2776.6754ms 
+2021-12-26 20:51:48.9720|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:51:48.9720|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:51:48.9911|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3066.1077ms 200 text/html; charset=utf-8 
+2021-12-26 20:51:48.9911|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3066.0738ms 200 text/html; charset=utf-8 
+2021-12-26 20:56:19.5687||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\aktur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2021-12-26 20:56:19.8535|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/Home2/Index   
+2021-12-26 20:56:19.8535|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/   
+2021-12-26 20:56:19.9463|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:56:19.9463|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:56:20.0576|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home2"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.Home2Controller (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:56:20.0576|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.HomeController (NetCoreLibraries.Logging.Web). 
+2021-12-26 20:56:22.0602||INFO|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:56:22.0759||WARN|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:56:22.0797||ERROR|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:56:22.0797||FATAL|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 20:56:22.1426||ERROR|NetCoreLibraries.Logging.Web.Controllers.Home2Controller|Attempted to divide by zero. System.DivideByZeroException: Attempted to divide by zero.
+   at NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index() in C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web\Controllers\Home2Controller.cs:line 29
+2021-12-26 20:56:22.1838|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 20:56:23.3111|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web) in 3245.8074ms 
+2021-12-26 20:56:23.3160|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:56:23.3160|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.DivideByZeroException: Attempted to divide by zero.
+   at NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index() in C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web\Controllers\Home2Controller.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-26 20:56:23.4970|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 1337.1244ms. 
+2021-12-26 20:56:23.4970|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web) in 3438.5302ms 
+2021-12-26 20:56:23.4970|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 20:56:23.5054|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3655.7319ms 500 text/html; charset=utf-8 
+2021-12-26 20:56:23.5054|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3660.56ms 200 text/html; charset=utf-8 
+2021-12-26 21:06:02.4868||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\aktur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2021-12-26 21:06:02.6074|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/   
+2021-12-26 21:06:02.6399|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:06:02.6895|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.HomeController (NetCoreLibraries.Logging.Web). 
+2021-12-26 21:06:02.6961||INFO|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:06:02.6961||WARN|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:06:02.7055||ERROR|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:06:02.7055||FATAL|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:06:02.7309|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 21:06:02.8946|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 171.4491ms. 
+2021-12-26 21:06:02.8946|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web) in 205.252ms 
+2021-12-26 21:06:02.8946|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:06:02.8946|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 296.1309ms 200 text/html; charset=utf-8 
+2021-12-26 21:06:07.8248|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/Home2/Index   
+2021-12-26 21:06:07.8301|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:06:07.8301|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home2"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.Home2Controller (NetCoreLibraries.Logging.Web). 
+2021-12-26 21:06:10.0783||ERROR|NetCoreLibraries.Logging.Web.Controllers.Home2Controller|Attempted to divide by zero. System.DivideByZeroException: Attempted to divide by zero.
+   at NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index() in C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web\Controllers\Home2Controller.cs:line 29
+2021-12-26 21:06:11.4707|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web) in 3634.6432ms 
+2021-12-26 21:06:11.4707|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:06:11.4707|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.DivideByZeroException: Attempted to divide by zero.
+   at NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index() in C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web\Controllers\Home2Controller.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-26 21:06:11.5331|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3708.553ms 500 text/html; charset=utf-8 
+2021-12-26 21:10:59.4038||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\aktur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2021-12-26 21:10:59.5374|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/   
+2021-12-26 21:10:59.5777|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:10:59.6367|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.HomeController (NetCoreLibraries.Logging.Web). 
+2021-12-26 21:10:59.6438||INFO|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:10:59.6438||WARN|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:10:59.6603||ERROR|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:10:59.6603||FATAL|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:10:59.6951|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 21:10:59.8352|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 150.5792ms. 
+2021-12-26 21:10:59.8352|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web) in 198.7745ms 
+2021-12-26 21:10:59.8352|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:10:59.8352|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 307.5894ms 200 text/html; charset=utf-8 
+2021-12-26 21:11:21.0542|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/Home2/Index   
+2021-12-26 21:11:21.0672|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:11:21.0814|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home2"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.Home2Controller (NetCoreLibraries.Logging.Web). 
+2021-12-26 21:11:22.9552||ERROR|NetCoreLibraries.Logging.Web.Controllers.Home2Controller|Attempted to divide by zero. System.DivideByZeroException: Attempted to divide by zero.
+   at NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index() in C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web\Controllers\Home2Controller.cs:line 29
+2021-12-26 21:11:24.4351|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web) in 3352.4589ms 
+2021-12-26 21:11:24.4388|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:11:24.4388|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.DivideByZeroException: Attempted to divide by zero.
+   at NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index() in C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web\Controllers\Home2Controller.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-26 21:11:24.5231|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3469.1211ms 500 text/html; charset=utf-8 
+2021-12-26 21:17:59.2386||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\aktur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2021-12-26 21:17:59.3748|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/   
+2021-12-26 21:17:59.4140|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:17:59.4662|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.HomeController (NetCoreLibraries.Logging.Web). 
+2021-12-26 21:17:59.4767||INFO|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:17:59.4874||WARN|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:17:59.4874||ERROR|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:17:59.4874||FATAL|NetCoreLibraries.Logging.Web.Controllers.HomeController|Index sayfasına girildi 
+2021-12-26 21:17:59.5170|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2021-12-26 21:17:59.6565|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 146.6092ms. 
+2021-12-26 21:17:59.6578|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web) in 189.6179ms 
+2021-12-26 21:17:59.6578|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.HomeController.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:17:59.6578|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 290.6531ms 200 text/html; charset=utf-8 
+2021-12-26 21:18:03.6822|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44344/Home2/Index   
+2021-12-26 21:18:03.6822|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:18:03.6921|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home2"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NetCoreLibraries.Logging.Web.Controllers.Home2Controller (NetCoreLibraries.Logging.Web). 
+2021-12-26 21:18:05.9534||ERROR|NetCoreLibraries.Logging.Web.Controllers.Home2Controller|Attempted to divide by zero. System.DivideByZeroException: Attempted to divide by zero.
+   at NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index() in C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web\Controllers\Home2Controller.cs:line 29
+2021-12-26 21:18:06.9072|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web) in 3214.0964ms 
+2021-12-26 21:18:06.9089|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index (NetCoreLibraries.Logging.Web)' 
+2021-12-26 21:18:06.9089|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.DivideByZeroException: Attempted to divide by zero.
+   at NetCoreLibraries.Logging.Web.Controllers.Home2Controller.Index() in C:\Users\aktur\Desktop\NetCoreLibraries\NetCoreLibraries\NetCoreLibraries.Logging.Web\Controllers\Home2Controller.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-26 21:18:06.9444|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3262.6154ms 500 text/html; charset=utf-8 
